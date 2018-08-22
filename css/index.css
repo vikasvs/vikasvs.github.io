@@ -55,7 +55,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	opacity: .8;
+    opacity: .8;
 
 }
 
@@ -97,7 +97,6 @@ header .intro-text .intro-buttons .index-button:hover {
     font-size: 1.5em;
     font-weight: 100;
 }
-
 header .intro-text .intro-button-bar {
     margin-top: 50px;
     width: 80%;
@@ -105,10 +104,9 @@ header .intro-text .intro-button-bar {
     border-radius: 50px;
     opacity: 1;
 }
-
 header .intro-text .intro-button-bar .header-button {
     margin: 10px 10px 10px 10px;
     opacity: .8;
 }
 header .intro-text .intro-button-bar .header-button:hover {
-    opacity: 1;*/
+    opacity: 1;*/ß

@@ -4,24 +4,13 @@ body {
     font-weight: 300;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-}
+
 
 a {
     color: #000;
 }
 
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: #000;
-}
+
 
 h1,
 h2,
@@ -32,14 +21,6 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-}
-
-.container {
-    width: auto;
-}
-
-.fa-cog {
-  color: white;
 }
 
 header {
@@ -70,7 +51,7 @@ header .text {
     font-weight: 40;*/
 
 
-font-family: "Lato";
+    font-family: "Lato";
     font-weight: 300;
     font-size: 20px;
 
@@ -86,6 +67,10 @@ i.fa {
     border-color: #222;
     margin-right: 10px;
     color: white;
+    opacity: 1
+}
+i.fa:hover {
+  opacity: 0.75;
 }
 
 .circle-icon {
@@ -103,16 +88,16 @@ header red {
 }
 
 header .intro-text .intro-buttons {
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 50px;
     opacity: 1;
 }
 
-header .intro-text .intro-buttons .index-button {
+header .intro-text .intro-buttons .intro-button {
     margin: 10px 10px 10px 10px;
-    opacity: .90;
-}
-header .intro-text .intro-buttons .index-button:hover {
     opacity: 1;
+}
+header .intro-text .intro-buttons .intro-button:hover {
+    opacity: 0.5;
 }
 

@@ -63,6 +63,15 @@ a:visited {
   left: 10px;
   color: white;
 }
+
+#blocks {
+    border-bottom-width:0px;
+    text-decoration: none;
+    border-bottom-color:#none;
+    border-bottom-style:none;
+    padding-bottom: 0px;
+    color: #none;
+}
   
 .link{
   padding-left: 8px;

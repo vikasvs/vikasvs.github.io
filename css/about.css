@@ -10,11 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 200px;
     margin-left: 25%;
     margin-right: 15%;
-    margin-top: -200px;
-    top: 50%;
     max-width: 100%;
     height: auto;
     display: inline-block;

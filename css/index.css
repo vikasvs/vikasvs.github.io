@@ -83,6 +83,11 @@ a .block {
     color: #ecf0f1;
     font-family: "Lato"
 }
+
+a.active {
+    color: #fff;
+    font-style: underline;
+}
 .block {
     padding-left: 8px;
     padding-right: 7px;

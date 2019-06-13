@@ -75,18 +75,12 @@ a.description:visited {
   color: white
 }
 
-
 a .block {
     text-decoration: none;
     font-weight: 550;
     font-size: 13px;
     color: #ecf0f1;
     font-family: "Lato"
-}
-
-a.active {
-    color: #fff;
-    font-style: underline;
 }
 .block {
     padding-left: 8px;
@@ -98,7 +92,15 @@ a.active {
     transform: skewX(-10deg);
     background-color: #2c3e50;
 }
-
+.block:hover,
+.block:focus,
+.block:active,
+.block.active {
+    border-bottom-width:0.5px;
+    text-decoration: none;
+    border-bottom-color:#00aeef;
+    border-bottom-style:solid;
+}
 #anchor-bar {
     text-decoration: none;
     font-weight: 450; 

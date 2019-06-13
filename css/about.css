@@ -1,0 +1,67 @@
+
+.main {
+}
+#about-content {
+	
+}
+
+.container {
+	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 200px;
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-top: -200px;
+    top: 50%;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+     
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "Lato";
+	font-weight: 100;
+	color: #ecf0f1;
+	text-transform: lowercase;
+	text-align: left;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: #fff;
+	font-weight: 300;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fff;
+    font-style: underline;
+}
+
+.row {
+	padding: 1vh 0;
+}
+
+
+.title {
+	padding: 5vh 0;
+}
+
+.title h1 {
+	font-family: "Montserrat";
+	font-weight: 400;
+}

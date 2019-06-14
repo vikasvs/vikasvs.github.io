@@ -105,10 +105,11 @@ a .block {
 .block:focus,
 .block:active,
 .block.active {
-    border-bottom-width:0.5px;
     text-decoration: none;
-    border-bottom-color:#00aeef;
-    border-bottom-style:solid;
+    border-top-width:0.5px;
+    border-top-style:solid;
+    border-top-color:#00aeef;
+   
 }
 #anchor-bar {
     text-decoration: none;

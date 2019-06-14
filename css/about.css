@@ -35,6 +35,7 @@ p {
 	color: #ecf0f1;
 	text-transform: lowercase;
 	text-align: left;
+	letter-spacing: .05em;
 }
 
 p {
@@ -68,3 +69,5 @@ a.active {
 	font-family: "Montserrat";
 	font-weight: 400;
 }
+
+

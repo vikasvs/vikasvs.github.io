@@ -17,45 +17,63 @@
     display: inline-block;
      
 }
+h1 {}
 h1,
 h2{
 	font-family: "Lato";
-	font-weight: 100;
+	font-weight: 250;
 	color: #00aeef;
 	text-transform: lowercase;
 	text-align: left;
+
 }
 h3,
 h4,
 h5,
 h6,
 p {
+	line-height: 30px;
 	font-family: "Lato";
-	font-weight: 200;
+	font-weight: 290;
 	color: #ecf0f1;
 	text-transform: lowercase;
 	text-align: left;
-	letter-spacing: .05em;
+	letter-spacing: .05em
 }
 
 p {
 	font-size: 16px;
 }
-
-a {
-	color: #fff;
+a{
 	font-weight: 300;
+	
 }
 
-a,
+a:link {
+
+    border-bottom-width:0.5px;
+    text-decoration: none;
+    border-bottom-color:#00aeef;
+    border-bottom-style:solid;
+    padding-bottom: 6px;
+    color: #00aeef;
+}
+a:visited {
+    border-bottom-width:0.5px;
+    text-decoration: none;
+    border-bottom-color:#00aeef;
+    border-bottom-style:solid;
+    padding-bottom: 6px;
+    color: #00aeef;
+}
+
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fff;
-    font-style: underline;
+    transition-duration: 300ms;
+    filter: brightness(60%);
 }
-
 .row {
 	padding: 1vh 0;
 }

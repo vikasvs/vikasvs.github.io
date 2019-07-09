@@ -56,10 +56,11 @@ a.fa:link {
 a.description:link {
     border-bottom-width:0.5px;
     text-decoration: none;
-    border-bottom-color:#00aeef;
+    border-bottom-color:##00CC99;
     border-bottom-style:solid;
     padding-bottom: 6px;
-    color: #00aeef;
+    /**color: #00aeef;*/
+    color:#00CC99;
 }
 a.description:visited {
     border-bottom-width:0.5px;
@@ -67,7 +68,8 @@ a.description:visited {
     border-bottom-color:#00aeef;
     border-bottom-style:solid;
     padding-bottom: 6px;
-    color: #00aeef;
+    /**color: #00aeef;*/
+    color:#03a87c;
 }
 
 .description:hover,

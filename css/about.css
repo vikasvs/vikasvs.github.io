@@ -34,7 +34,7 @@ h6,
 p {
 	line-height: 30px;
 	font-family: "Lato";
-	font-weight: 270;
+	font-weight: 300;
 	color: #ecf0f1;
 	text-transform: lowercase;
 	text-align: left;
@@ -42,7 +42,7 @@ p {
 }
 
 p {
-	font-size: 16px;
+	font-size: 15  px;
 }
 a{
 	font-weight: 300;

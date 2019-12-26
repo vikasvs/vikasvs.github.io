@@ -1,7 +1,6 @@
-    .main{
-    font-family: "Lato";
+.main{
     font-weight: 300;
-    color: white;
+    color: #302C2C;
 }
 
 .container{
@@ -21,32 +20,37 @@
     display: inline-block;    
 }
 
-.intro-hedaing {
-    font-family: "Glosa Display",Georgia,"Times New Roman",Times,serif;
+.intro-heading {
+    font-family: "AkrobatBold", Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #302C2C;
+    position: relative;
+    
 }
 .intro-text{
-    /*margin-bottom: 25px; */
+    margin-bottom: 15px;    
     text-transform: lowercase;
-    font-size: 48px;
     font-weight: 700;
     line-height: 60px;
     z-index: 1;
 }
 
 .text{
-    padding-top: 10px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    letter-spacing: .05em;
-    line-height: 40px;
-    text-transform: lowercase;
-    font-family: "Lato";
+    font-family: "Akrobat", Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #302C2C;
+    padding-top: 20px;
+}
+    
+p {
+    padding-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-}
 
 a.fa:link {
     border-bottom-color:#pink;
@@ -56,19 +60,19 @@ a.fa:link {
 a.description:link {
     border-bottom-width:0.5px;
     text-decoration: none;
-    border-bottom-color:#00aeef;
+    border-bottom-color:#ED6C5C;
     border-bottom-style:solid;
     padding-bottom: 6px;
-    color: #00aeef;
+    color: #ED6C5C;
     
 }
 a.description:visited {
     border-bottom-width:0.5px;
     text-decoration: none;
-    border-bottom-color:#00aeef;
+    border-bottom-color:#ED6C5C;
     border-bottom-style:solid;
     padding-bottom: 6px;
-    color: #00aeef;
+    color: #ED6C5C;
 }
 
 .description:hover,
@@ -82,9 +86,8 @@ a.description:visited {
 /* anchor bar */
 
 #anchor {
-  position: fixed;
-  bottom: 7px;
-  left: 10px;
+  position: relative;
+  margin-top: 580px;
   color: white
 }
 
@@ -110,23 +113,19 @@ a .block {
 .block:active,
 .block.active {
     text-decoration: none;
-    border-top-width:0.5px;
+    border-top-width:2px;
     border-top-style:solid;
-    border-top-color:#00aeef;
+    border-top-color:#ED6C5C;
    
 }
-#anchor-bar {
-    text-decoration: none;
-    font-weight: 450; 
-    font-size: 13px;
-    color: #ecf0f1;
-}
+
+
 
 
 /* buttons */
 
 .circle-icon {
-    background: #222;
+    background: #302C2C;
     padding:0px;
     text-align: center; 
     border-radius: 50px;
@@ -150,11 +149,10 @@ a .block {
 
 i.fa {
     display: inline-block;
-    border-radius: 50px;
-    border-color: #222;
-    margin-right: 10px;
-    color: white;
+    margin-right: 25px;
+    color: #ED6C5C;
     opacity: 1
+
     
 }
 i.fa:hover {
@@ -164,7 +162,7 @@ i.fa:hover {
 
 /* media */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 400px) {
     #anchor {
         display: none;
     }

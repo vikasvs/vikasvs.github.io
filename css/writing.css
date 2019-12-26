@@ -1,15 +1,13 @@
+
 .main {
-}
-#about-content {
-	
 }
 
 .container {
-	justify-content: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-right: 15%;
     max-width: 100%;
     height: auto;
@@ -25,54 +23,34 @@ h1 {
     position: relative;
 }
 
-h2{
-    font-family: "AkrobatBold", Arial, sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #ED6C5C;
-    position: relative;
-
-}
-h3,
-h4,
-h5,
-h6,
-p {
-	line-height: 30px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
-	color: #302C2C;
-	text-transform: lowercase;
-	text-align: left;
-	letter-spacing: .05em
-}
-
-p {
-	font-size: 15px;
-    font-weight: 100;
-}
 a{
-	font-weight: 100;
-	
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #302C2C;
+    text-transform: lowercase;
+    text-align: left;
+    letter-spacing: .05em
+    font-size: 15px;
+    font-weight: 100;
 }
 
 a:link {
 
     border-bottom-width:0.5px;
     text-decoration: none;
-    border-bottom-color:#ED6C5C;
+    border-bottom-color:#302C2C;
     border-bottom-style:solid;
     padding-bottom: 6px;
-    color: #ED6C5C;
+    color: #302C2C;
 }
 a:visited {
     border-bottom-width:0.5px;
     text-decoration: none;
-    border-bottom-color:#ED6C5C;
+    border-bottom-color:#302C2C;
     border-bottom-style:solid;
     padding-bottom: 6px;
-    color: #ED6C5C;
+    color: #302C2C;
 }
 
 a:hover,
@@ -81,19 +59,20 @@ a:active,
 a.active {
     transition-duration: 300ms;
     filter: brightness(60%);
+    color: #ED6C5C;
 }
 .row {
-	padding: 1vh 0;
+    padding: 1vh 0;
 }
 
 
 .title {
-	padding: 5vh 0;
+    padding: 5vh 0;
 }
 
 .title h1 {
     font-family: "AkrobatBold", Arial, sans-serif;
-	font-weight: 80;
+    font-weight: 80;
 }
 
 

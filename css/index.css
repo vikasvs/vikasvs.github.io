@@ -86,9 +86,9 @@ a.description:visited {
 /* anchor bar */
 
 #anchor {
-  position: relative;
-  margin-top: 580px;
-  color: white
+  position: absolute;
+  bottom: 10px;
+  color: white;
 }
 
 a .block {
@@ -162,7 +162,7 @@ i.fa:hover {
 
 /* media */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1000) {
     #anchor {
         display: none;
     }

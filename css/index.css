@@ -20,15 +20,6 @@
     display: inline-block;    
 }
 
-#typed{
-    font-family: "AkrobatBold", Arial, sans-serif;
-    font-size: 30px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #302C2C;
-    position: relative;
-    
-}
 
 .typed-cursor{
      font-family: "AkrobatBold", Arial, sans-serif;
@@ -108,6 +99,15 @@ a.description:visited {
     filter: brightness(65%);
 }
 
+#typed{
+    font-family: "AkrobatBold", Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #302C2C;
+    position: relative;
+    
+}
 /* anchor bar */
 
 #anchor {

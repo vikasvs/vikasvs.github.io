@@ -24,14 +24,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <script src="https://use.fontawesome.com/7bfe29fb44.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- Custom CSS -->
     <link href="css/index.css" rel="stylesheet">
-
-    
     
     <link href='https://fonts.googleapis.com/css?family=Lato:100,900italic,900,700italic,700,400italic,400,300italic,300,100italic' rel='stylesheet' type='text/css'>
   
@@ -42,10 +41,14 @@
     <div class="main">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-heading">vikas sharma</div>
-            
+          <div class="intro-heading"></div>
+
+          
+              <span id="typed"></span>
+
             <div class = "text">
               <p> cs & econ @ <a href="https://eecs.berkeley.edu/ " class = description>uc berkeley </a> </p>
+              <p> software engineering @  <a href = "https://www.salesforce.com/" class = description>salesforce </a></p>
               <p> product @ <a href = "https://www.jetzyapp.com/" class = description>jetzy </a></p>
               <p> prev @ <a href = "https://www.juniper.net/us/en/products-services/sdn/contrail/contrail-service-orchestration/" class = description>juniper networks </a> @ <a href = "https://sv.ai/" class = description>svai </a> @ <a href = "https://haas.berkeley.edu/" class = description> haas school of business</a></p>
             </div>
@@ -76,9 +79,17 @@
           <a href="assets/resume-dec11.pdf" target="_blank">    
             <div class="block "> resume </div>
           </a>
-
-      </div>
+        </div>
     </div>
+
+    <script>
+      var typed = new Typed('#typed', {
+        strings:["Hi I'm Vikas","I've worked at nonprofits" ,"I've worked at startups", "I've worked at tech companies", "VIKAS SHARMA"],
+                    backSpeed: 40,
+                    typeSpeed: 40,
+                    smartBackspace: true
+      });
+    </script>
 
   </body>
 </html>

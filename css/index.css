@@ -20,6 +20,25 @@
     display: inline-block;    
 }
 
+#typed{
+    font-family: "AkrobatBold", Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #302C2C;
+    position: relative;
+    
+}
+
+.typed-cursor{
+     font-family: "AkrobatBold", Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #302C2C;
+    position: relative;
+}
+
 .intro-heading {
     font-family: "AkrobatBold", Arial, sans-serif;
     font-size: 30px;
@@ -53,7 +72,13 @@ p {
 
 
 a.fa:link {
-    border-bottom-color:#pink;
+    border-bottom-color:pink;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }
 
 
